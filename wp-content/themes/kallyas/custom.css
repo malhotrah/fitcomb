@@ -1,0 +1,172 @@
+#action_box {
+border-top: 2px solid #007bc1 !important;
+border-bottom: 2px solid #007bc1 !important;
+background-color: #cd2122!important;
+height:auto;
+}
+
+#action_box h4.text{
+font-size:35px;
+text-align: center;
+}
+
+#action_box>div.container>div.row>div.span4>a.btn{
+background-color: #007bc1 !important;
+color: white !important;
+background-image: linear-gradient(to bottom, #007bc1, #007bc1) !important;
+background-repeat: repeat-x;
+border: 1px solid #007bc1 !important;
+}
+
+nav#main_menu > ul > li.active > a, nav#main_menu > ul > li > a:hover, nav#main_menu > ul > li:hover > a, .social-icons li a:hover, #action_box, body .circlehover, body .flex-direction-nav li a:hover, body .iosSlider .item .caption.style1 .more:before, body .iosSlider .item .caption.style1 .more:after, body .iosSlider .item .caption.style2 .more, body .nivo-directionNav a:hover, body #wowslider-container a.ws_next:hover, body #wowslider-container a.ws_prev:hover, .br-next:hover, .br-previous:hover, body .ca-more, body .title_circle, body .title_circle:before, body ul.links li a, .hg-portfolio-sortable #portfolio-nav li a:hover, .hg-portfolio-sortable #portfolio-nav li.current a, .iosSlider .item .caption.style1 .more:before, .iosSlider .item .caption.style1 .more:after, .btn-flat, body.woocommerce a.button:hover, body.woocommerce button.button:hover, body.woocommerce input.button:hover, body.woocommerce #respond input#submit:hover, body.woocommerce #content input.button:hover, body.woocommerce-page a.button:hover, body.woocommerce-page button.button:hover, body.woocommerce-page input.button:hover, body.woocommerce-page #respond input#submit:hover, body.woocommerce-page #content input.button:hover, body.woocommerce a.button, body.woocommerce button.button, body.woocommerce input.button, body.woocommerce #respond input#submit, body.woocommerce #content input.button, body.woocommerce-page a.button, body.woocommerce-page button.button, body.woocommerce-page input.button, body.woocommerce-page #respond input#submit, body.woocommerce-page #content input.button, body.woocommerce a.button.alt, body.woocommerce button.button.alt, body.woocommerce input.button.alt, body.woocommerce #respond input#submit.alt, body.woocommerce #content input.button.alt, body.woocommerce-page a.button.alt, body.woocommerce-page button.button.alt, body.woocommerce-page input.button.alt, body.woocommerce-page #respond input#submit.alt, body.woocommerce-page #content input.button.alt, body .woocommerce a.button, body .woocommerce button.button, body .woocommerce input.button, body .woocommerce #respond input#submit, body .woocommerce #content input.button, body .woocommerce-page a.button, body .woocommerce-page button.button, body .woocommerce-page input.button, body .woocommerce-page #respond input#submit, body .woocommerce-page #content input.button, span.zonsale, .sidebar .widget ul.menu li.active > a, .sidebar .widget ul.product-categories li.active > a, .sidebar .widget ul.pagenav li.active a, .sidebar .widget ul.menu li.current-cat > a, .sidebar .widget ul.product-categories li.current-cat > a, .sidebar .widget ul.pagenav li.current-cat > a, .sidebar .widget ul.menu li > a:hover, .sidebar .widget ul.product-categories li > a:hover, .sidebar .widget ul.pagenav li a:hover, #limited_offers li:after, .login-panel .create_account, .login-panel input[type=submit], .register-panel input[type=submit], .forgot-panel input[type=submit], .login-panel .login_facebook{
+background-color: #007bc1;
+}
+
+#footer .menu li a {
+padding-right: 0px;
+}
+
+nav#main_menu {
+clear: none;
+}
+
+#footer .copyright img {
+width:102px;
+height:102px;
+}
+
+#presence_map{
+float:right;
+}
+
+header#header.style2 #logo a {
+padding: 7px;
+}
+
+span.wpcf7-not-valid-tip {
+left: 0%;
+z-index: 100;
+background: none;
+border: none;
+color: red;
+padding-top: 17px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+background-color: #90a37f;
+border: none;
+padding: 0px 15px;
+color: #fff;
+border-radius: 6px;
+height: 30px;
+}
+
+.hoverBorderWrapper {
+border: 4px solid #ccc;
+}
+
+.wpcf7-form-control.wpcf7-textarea{
+height: 50px;
+}
+
+.gallery-display{
+display: inline-block;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+font-size: 12px;
+}
+
+.sf-menu{
+margin-top: 25px;
+}
+
+h3.title{
+font-size: 14px; 
+line-height: 22px;
+}
+
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+width: 85%;
+}
+.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+width: 92%;
+}
+
+.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+width: 85%;
+}
+
+.internal-images{
+border: 5px solid #fff;
+box-shadow: 5px 5px 5px #ccc;
+}
+
+.internal-page-text{
+padding-left: 22px;
+}
+
+#search {
+display: none;
+}
+
+select, textarea, input[type="text"], textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+margin-bottom: 0px;
+
+}
+
+.sidebar .widget .title {
+margin-bottom: 10px;
+padding-bottom: 13px;
+
+}
+
+.topnav.navRight {
+display: none;
+}
+
+#logo a {
+padding-top: 0px;
+}
+
+#logo {
+height: 100px;
+}
+
+nav#main_menu > ul {
+margin: 35px 0;
+}
+
+#header.style2 {
+border-top: 3px solid #cd2122;
+}
+
+header#header.style2 #logo a {
+border-top: none;
+border-bottom:none;
+background:none;
+border:none;
+}
+
+#page_header.zn_def_header_style, #slideshow.zn_def_header_style, #page_header.uh_zn_def_header_style, #slideshow.uh_zn_def_header_style {
+background-color: #AAAAAA;
+}
+
+body{
+background-color: #000;
+color: #ccc;
+}
+
+.gray-area {
+background: #000;
+}
+
+h1, .page-title{
+color: #ccc;
+}
+
+.m_title {
+text-shadow: none;
+}

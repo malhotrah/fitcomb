@@ -1,0 +1,5 @@
+.error_log
+wp-config.php
+wp-settings.php
+.idea/*
+cgi-bin/*
