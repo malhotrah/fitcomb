@@ -2,11 +2,11 @@
 border-top: 2px solid #007bc1 !important;
 border-bottom: 2px solid #007bc1 !important;
 background-color: #cd2122!important;
-height:auto;
+height:40px;
 }
 
 #action_box h4.text{
-font-size:35px;
+font-size:30px;
 text-align: center;
 }
 
@@ -169,4 +169,26 @@ color: #ccc;
 
 .m_title {
 text-shadow: none;
+}
+
+.team_member {
+color: rgb(83, 83, 83);
+}
+ul.offerings li{
+padding:12px;
+}
+
+ul.offerings li a {
+cursor: pointer;
+background: none repeat scroll 0 0 #007bc1;
+border-radius: 3px;
+color: #fff;
+display: inline-block;
+font-size: 18px;
+padding: 15px 22px;
+text-decoration: none;
+}
+
+#wpfooter{
+display:none;
 }

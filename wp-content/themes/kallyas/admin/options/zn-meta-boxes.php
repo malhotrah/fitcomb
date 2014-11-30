@@ -983,7 +983,7 @@ $zn_meta_elements[] = array (
 												"name" => "Sizer Hidden Option",
 												"desc" => "This option is hidden.",
 												"id" => "_sizer",
-												"std" => "four",
+												"std" => "one-third",
 												"type" => "hidden",
 												"class" => 'zn_size_input'
 											),

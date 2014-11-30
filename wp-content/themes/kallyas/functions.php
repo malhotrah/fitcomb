@@ -3758,6 +3758,8 @@ if ( ! function_exists( 'zn_has_ajax' ) ) {
 						$body = '';
 						$name = '';
 						$email = '';
+                        $phone='';
+                        $message='';
 						$headers = "MIME-Version: 1.0\r\nContent-type: text/html; charset=utf-8\r\n";
 						
 						foreach ( $options['zn_cf_fields'] as $field ) {
@@ -3773,6 +3775,12 @@ if ( ! function_exists( 'zn_has_ajax' ) ) {
 								if ( $field['zn_cf_f_name'] ) {
 									$name = $_POST[$field_name];
 								}
+                                if ( $field['zn_cf_name']=="Phone" || $field['zn_cf_name']=="phone" ) {
+                                    $phone = $_POST[$field_name];
+                                }
+                                if ( $field['zn_cf_name']=="Message" || $field['zn_cf_name']=="message" ) {
+                                    $message = $_POST[$field_name];
+                                }
 							}
 
 						}
@@ -3784,7 +3792,13 @@ if ( ! function_exists( 'zn_has_ajax' ) ) {
 								$headers .= "Reply-To: " .  $email . "\r\n";
 							}
 
+                            //saving contact enteries to the db
+                        //submit data to database
 
+                        global $wpdb;
+                        $table_name = $wpdb->prefix . "contact";
+                        $wpdb->insert($table_name, array('name' => $name, 'email' => $email,
+                            'phone' => $phone, 'message' => $message));
 							if ( mail ($options['zn_cf_email_address'],$options['zn_cf_button_subject'],$body,$headers) ){
 								echo 'sent';
 							}

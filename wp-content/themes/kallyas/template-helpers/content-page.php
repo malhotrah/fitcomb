@@ -1370,7 +1370,8 @@
 	{
 	
 		
-		$element_size = zn_get_size( $options['_sizer'] );
+//		$element_size = zn_get_size( $options['_sizer'] );
+		$element_size = zn_get_size( 'one-third' );
 		$c_title = '';
 	
 		echo '<div class="'.$element_size['sizer'].'">';
@@ -1388,7 +1389,7 @@
 				
 				if ( !empty ( $options['teb_image'] ) ) {
 				
-					$image = vt_resize( '', $options['teb_image']  , 270,270 , true );
+					$image = vt_resize( '', $options['teb_image']  , 370,370 , true );
 					$image = '<img src="'.$image['url'].'" width="'.$image['width'].'" height="'.$image['height'].'" alt=""/>';
 					
 				}
